@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1971</width>
+    <height>1248</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Title">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>30</y>
+      <width>581</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Connect 4 Ultimate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SaveFile1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>1971</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name: N/A : Player: N/A : Difficuly: N/A : Computer: N/A
+Red: N/A : Yellow: N/A : Ties: N/A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoadSaveFile1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>691</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NewSaveFile1">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>390</y>
+      <width>631</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>New</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeleteSaveFile1">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>390</y>
+      <width>651</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SaveFile2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>1971</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name: N/A : Player: N/A : Difficuly: N/A : Computer: N/A
+Red: N/A : Yellow: N/A : Ties: N/A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoadSaveFile2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>750</y>
+      <width>691</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NewSaveFile2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>750</y>
+      <width>631</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>New</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeleteSaveFile2">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>750</y>
+      <width>651</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="SaveFile3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>910</y>
+      <width>1971</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name: N/A : Player: N/A : Difficuly: N/A : Computer: N/A
+Red: N/A : Yellow: N/A : Ties: N/A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LoadSaveFile3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1060</y>
+      <width>691</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NewSaveFile3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>1060</y>
+      <width>631</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>New</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DeleteSaveFile3">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>1060</y>
+      <width>651</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="FileName">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>660</y>
+      <width>501</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="placeholderText">
+     <string>SaveFile#</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>661</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name:
+(No spaces
+or '\')</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Player">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>370</y>
+      <width>281</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Player:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Human">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>460</y>
+      <width>481</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Human</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ArtificialIntelligence">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>650</y>
+      <width>481</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Artificial 
+Intelligence</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Difficulty">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>370</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Difficulty:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Easy">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>460</y>
+      <width>371</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Easy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Impossible">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>650</y>
+      <width>371</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Impossible</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Computer">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>370</y>
+      <width>401</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Computer:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Red">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>460</y>
+      <width>441</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Red</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Yellow">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>650</y>
+      <width>441</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yellow</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1000</y>
+      <width>471</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CreateFile">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>1000</y>
+      <width>661</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Create File</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PlayerOutput">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>840</y>
+      <width>481</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>N/A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DifficultyOutput">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>840</y>
+      <width>371</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>N/A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ComputerOutput">
+    <property name="geometry">
+     <rect>
+      <x>1510</x>
+      <y>840</y>
+      <width>441</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>N/A</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Board">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>130</y>
+      <width>1971</width>
+      <height>1221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Connect 4 Board.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red00">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow00">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red10">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow10">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red20">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow20">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red30">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow30">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red40">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow40">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red50">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow50">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red01">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow01">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow11">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red21">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow21">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red31">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow31">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red41">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow41">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red51">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow51">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red02">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow02">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red12">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow12">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red22">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow22">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red32">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow32">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red42">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow42">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red52">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow52">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red03">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow03">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red13">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow13">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red23">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow23">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red33">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow33">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red43">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow43">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red53">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow53">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red04">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow04">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red14">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow14">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red24">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow24">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red34">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow34">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red44">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow44">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red54">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow54">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red05">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow05">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red15">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow15">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red25">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow25">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red35">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow35">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red45">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow45">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red55">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow55">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red06">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow06">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>290</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red16">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow16">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>440</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red26">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow26">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>590</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red36">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow36">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>750</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red46">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow46">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>900</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Red56">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Red Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Yellow56">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>1050</y>
+      <width>146</width>
+      <height>146</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-Connect_Four-Desktop_x86_windows_msvc2019_pe_64bit-Debug/Pictures/Yellow Chip.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop0">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>161</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop1">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>110</y>
+      <width>161</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>110</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop3">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>110</y>
+      <width>161</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop4">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>110</y>
+      <width>161</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop5">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>110</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drop6">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>110</y>
+      <width>151</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop
+Here!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Loading">
+    <property name="geometry">
+     <rect>
+      <x>1646</x>
+      <y>1064</y>
+      <width>321</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Loading...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PlayAgain">
+    <property name="geometry">
+     <rect>
+      <x>1580</x>
+      <y>350</y>
+      <width>361</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Play
+Again!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Exit">
+    <property name="geometry">
+     <rect>
+      <x>1580</x>
+      <y>660</y>
+      <width>361</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedWins">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>360</y>
+      <width>371</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Red
+Wins!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="YellowWins">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>371</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yellow
+Wins!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ItsATie">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>371</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>It's a
+Tie!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RedgoesFirst">
+    <property name="geometry">
+     <rect>
+      <x>1116</x>
+      <y>150</y>
+      <width>591</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Red goes First!</string>
+    </property>
+   </widget>
+   <zorder>Title</zorder>
+   <zorder>SaveFile1</zorder>
+   <zorder>LoadSaveFile1</zorder>
+   <zorder>NewSaveFile1</zorder>
+   <zorder>DeleteSaveFile1</zorder>
+   <zorder>SaveFile2</zorder>
+   <zorder>LoadSaveFile2</zorder>
+   <zorder>NewSaveFile2</zorder>
+   <zorder>DeleteSaveFile2</zorder>
+   <zorder>SaveFile3</zorder>
+   <zorder>LoadSaveFile3</zorder>
+   <zorder>NewSaveFile3</zorder>
+   <zorder>DeleteSaveFile3</zorder>
+   <zorder>Human</zorder>
+   <zorder>Easy</zorder>
+   <zorder>Impossible</zorder>
+   <zorder>Red</zorder>
+   <zorder>Yellow</zorder>
+   <zorder>Back</zorder>
+   <zorder>CreateFile</zorder>
+   <zorder>DifficultyOutput</zorder>
+   <zorder>ComputerOutput</zorder>
+   <zorder>Board</zorder>
+   <zorder>Red00</zorder>
+   <zorder>Yellow00</zorder>
+   <zorder>Red10</zorder>
+   <zorder>Yellow10</zorder>
+   <zorder>Red20</zorder>
+   <zorder>Yellow20</zorder>
+   <zorder>Red30</zorder>
+   <zorder>Yellow30</zorder>
+   <zorder>Red40</zorder>
+   <zorder>Yellow40</zorder>
+   <zorder>Red50</zorder>
+   <zorder>Yellow50</zorder>
+   <zorder>Red01</zorder>
+   <zorder>Yellow01</zorder>
+   <zorder>Red11</zorder>
+   <zorder>Yellow11</zorder>
+   <zorder>Red21</zorder>
+   <zorder>Yellow21</zorder>
+   <zorder>Red31</zorder>
+   <zorder>Yellow31</zorder>
+   <zorder>Red41</zorder>
+   <zorder>Yellow41</zorder>
+   <zorder>Red51</zorder>
+   <zorder>Yellow51</zorder>
+   <zorder>Red02</zorder>
+   <zorder>Yellow02</zorder>
+   <zorder>Red12</zorder>
+   <zorder>Yellow12</zorder>
+   <zorder>Red22</zorder>
+   <zorder>Yellow22</zorder>
+   <zorder>Red32</zorder>
+   <zorder>Yellow32</zorder>
+   <zorder>Red42</zorder>
+   <zorder>Yellow42</zorder>
+   <zorder>Red52</zorder>
+   <zorder>Yellow52</zorder>
+   <zorder>Red03</zorder>
+   <zorder>Yellow03</zorder>
+   <zorder>Red13</zorder>
+   <zorder>Yellow13</zorder>
+   <zorder>Red23</zorder>
+   <zorder>Yellow23</zorder>
+   <zorder>Red33</zorder>
+   <zorder>Yellow33</zorder>
+   <zorder>Red43</zorder>
+   <zorder>Yellow43</zorder>
+   <zorder>Red53</zorder>
+   <zorder>Yellow53</zorder>
+   <zorder>Red04</zorder>
+   <zorder>Yellow04</zorder>
+   <zorder>Red14</zorder>
+   <zorder>Yellow14</zorder>
+   <zorder>Red24</zorder>
+   <zorder>Yellow24</zorder>
+   <zorder>Red34</zorder>
+   <zorder>Yellow34</zorder>
+   <zorder>Red44</zorder>
+   <zorder>Yellow44</zorder>
+   <zorder>Red54</zorder>
+   <zorder>Yellow54</zorder>
+   <zorder>Red05</zorder>
+   <zorder>Yellow05</zorder>
+   <zorder>Red15</zorder>
+   <zorder>Yellow15</zorder>
+   <zorder>Red25</zorder>
+   <zorder>Yellow25</zorder>
+   <zorder>Red35</zorder>
+   <zorder>Yellow35</zorder>
+   <zorder>Red45</zorder>
+   <zorder>Yellow45</zorder>
+   <zorder>Red55</zorder>
+   <zorder>Yellow55</zorder>
+   <zorder>Red06</zorder>
+   <zorder>Yellow06</zorder>
+   <zorder>Red16</zorder>
+   <zorder>Yellow16</zorder>
+   <zorder>Red26</zorder>
+   <zorder>Yellow26</zorder>
+   <zorder>Red36</zorder>
+   <zorder>Yellow36</zorder>
+   <zorder>Red46</zorder>
+   <zorder>Yellow46</zorder>
+   <zorder>Red56</zorder>
+   <zorder>Yellow56</zorder>
+   <zorder>Drop0</zorder>
+   <zorder>Drop1</zorder>
+   <zorder>Drop2</zorder>
+   <zorder>Drop3</zorder>
+   <zorder>Drop4</zorder>
+   <zorder>Drop5</zorder>
+   <zorder>Drop6</zorder>
+   <zorder>Loading</zorder>
+   <zorder>PlayAgain</zorder>
+   <zorder>Exit</zorder>
+   <zorder>RedWins</zorder>
+   <zorder>YellowWins</zorder>
+   <zorder>ItsATie</zorder>
+   <zorder>Name</zorder>
+   <zorder>FileName</zorder>
+   <zorder>ArtificialIntelligence</zorder>
+   <zorder>PlayerOutput</zorder>
+   <zorder>Difficulty</zorder>
+   <zorder>Player</zorder>
+   <zorder>Computer</zorder>
+   <zorder>RedgoesFirst</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
